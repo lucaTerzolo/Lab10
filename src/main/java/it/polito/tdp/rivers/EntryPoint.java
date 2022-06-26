@@ -20,11 +20,10 @@ public class EntryPoint extends Application {
         FXMLController controller = loader.getController();
         controller.setModel(model);
         
-        stage.setTitle("Lab10");
+        stage.setTitle("Rivers");
         stage.setScene(scene);
         stage.show();
     }
-
     /**
      * The main() method is ignored in correctly deployed JavaFX application.
      * main() serves only as fallback in case the application can not be
